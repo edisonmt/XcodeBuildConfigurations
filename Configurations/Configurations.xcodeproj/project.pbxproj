@@ -13,6 +13,8 @@
 		B789B708257CFACE00323C75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B789B706257CFACE00323C75 /* Main.storyboard */; };
 		B789B70A257CFAD100323C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B789B709257CFAD100323C75 /* Assets.xcassets */; };
 		B789B70D257CFAD100323C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B789B70B257CFAD100323C75 /* LaunchScreen.storyboard */; };
+		B789B719257D038300323C75 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B789B718257D038300323C75 /* Configuration.swift */; };
+		B789B71C257D05F400323C75 /* Configuration+DarkSky.swift in Sources */ = {isa = PBXBuildFile; fileRef = B789B71B257D05F400323C75 /* Configuration+DarkSky.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B789B709257CFAD100323C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B789B70C257CFAD100323C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B789B70E257CFAD100323C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B789B718257D038300323C75 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		B789B71B257D05F400323C75 /* Configuration+DarkSky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Configuration+DarkSky.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				B789B709257CFAD100323C75 /* Assets.xcassets */,
 				B789B70B257CFAD100323C75 /* LaunchScreen.storyboard */,
 				B789B70E257CFAD100323C75 /* Info.plist */,
+				B789B718257D038300323C75 /* Configuration.swift */,
+				B789B71B257D05F400323C75 /* Configuration+DarkSky.swift */,
 			);
 			path = Configurations;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			files = (
 				B789B705257CFACE00323C75 /* ViewController.swift in Sources */,
 				B789B701257CFACE00323C75 /* AppDelegate.swift in Sources */,
+				B789B719257D038300323C75 /* Configuration.swift in Sources */,
 				B789B703257CFACE00323C75 /* SceneDelegate.swift in Sources */,
+				B789B71C257D05F400323C75 /* Configuration+DarkSky.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
